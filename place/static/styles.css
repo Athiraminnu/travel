@@ -1,0 +1,31 @@
+*{
+    background-color:#FBE7A1
+}
+.nam{
+    text-align: center;
+}
+#btn{
+    margin-top: 2%;
+}
+#btn1{
+    margin-top: 2%;
+}
+.row{
+    padding: 2%;
+}
+.col-md-3{
+    padding: 2%;
+}
+.details{
+    font-size: 18px;
+    padding: 2%;
+}
+.card-title{
+    text-align: center;
+}
+.col-md-6{
+    text-align: justify;
+}
+
+
+

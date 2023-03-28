@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="details">
+     <div class="row">
+         <div class="col-md-5">
+             <img src=" {{result.img.url}} " width="400">
+         </div>
+         <div class="col-md-6">
+             <b>{{result.name}}</b><br><br>
+                   {{result.about}}<br><br>
+                   <a id="btn" class="btn btn-warning" href="{% url 'placeapp:update' result.id %}"> update</a>
+                   <a id="btn1" class="btn btn-danger" href="{% url 'placeapp:delete' result.id %}"> delete</a>
+         </div>
+     </div>
+ </div>
+{% endblock %}
